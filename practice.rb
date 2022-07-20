@@ -188,3 +188,99 @@
 
 # problem 13
 
+# Write a function that takes in an array of numbers and returns its sum.
+
+# array = [5, 4, 8, 1, 2]
+
+# def sum_array(input)
+#   sum = 0
+#   input.each do |x|
+#     sum += x
+#   end
+#   return sum
+# end
+
+# p sum_array(array)
+
+# problem 14
+
+# Write a function that takes in an array of strings and returns the smallest string.
+
+# array = ["horse", "elephant", "mouse", "cat", "blue", "fly"]
+
+# def find_smallest_string(input)
+#   smallest_word = input[0]
+#   input.each do |word|
+#     if smallest_word.length > word.length
+#       smallest_word = word
+#     end
+#   end
+#   return smallest_word
+# end
+
+# p find_smallest_string(array)
+
+# problem 15
+
+# Write a function that takes in an array of numbers and returns a new array with the numbers in reverse order.
+
+# array = [6, 2, 7, 4, 4, 8, 10]
+
+# def reverse_numbers(input)
+#   new_array = []
+#   input.each do |x|
+#     new_array.insert(0, x)
+#   end
+#   return new_array
+# end
+
+# p reverse_numbers(array)
+
+# problem 16
+
+# Write a function that takes in an array of words and returns the number of words that begin with the letter "a".
+
+# array = ["alpaca", 'bubblegum', 'elephants', 'apples', 'Alligators']
+
+# def find_a_words(input)
+#   return input.count { |x| x.split(//).first.downcase == "a"}
+# end
+
+# p find_a_words(array)
+
+# problem 17
+
+# Write a function that takes in an array of strings and joins them together to make a single string separated by commas.
+
+# array = ["alpaca", 'bubblegum', 'elephants', 'apples', 'Alligators']
+
+# def combine_string(input)
+#   superstring = input[0]
+#   (input.length - 1).times do |i|
+#     superstring += "," + input[i+1]
+#   end
+#   return superstring
+# end
+
+# p combine_string(array)
+
+# problem 18
+
+# Write a function that takes in an array of numbers and returns the product of all the numbers (each number multiplied by each other). 
+
+# problem 19
+
+# Write a function that takes in an array of numbers and returns the two smallest numbers.
+
+# problem 20
+
+# Write a function that takes in an array of numbers and returns a count of how many zeros are in the array.
+
+# problem 21
+
+# Write a function that takes in an array of numbers and returns true if all the numbers are bigger than 10, otherwise returns false.
+
+# problem 22
+
+# Write a function that takes in an array of words and returns the number of times the letter "a" appeared in total.
+

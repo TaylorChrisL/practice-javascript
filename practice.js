@@ -142,3 +142,69 @@
 // console.log(bubbleSort(array));
 
 // problem 13
+
+// var array = [5, 4, 8, 1, 2];
+
+// function sumArray(input) {
+//   var sum = 0;
+//   input.forEach((x) => {
+//     sum += x;
+//   });
+//   return sum;
+// }
+
+// console.log(sumArray(array));
+
+// problem 14
+
+// var array = ["horse", "elephant", "mouse", "cat", "blue", "fly"];
+
+// function findSmallestString(input) {
+//   var smallest_word = input[0];
+//   input.forEach((word) => {
+//     if (smallest_word.length > word.length) {
+//       smallest_word = word;
+//     }
+//   });
+//   return smallest_word;
+// }
+
+// console.log(findSmallestString(array));
+
+// problem 15
+
+// var array = [6, 2, 7, 4, 4, 8, 10];
+
+// function reverseNumbers(input) {
+//   var new_array = [];
+//   input.forEach((x) => {
+//     new_array.splice(0, 0, x);
+//   });
+//   return new_array;
+// }
+
+// console.log(reverseNumbers(array));
+
+// problem 16
+
+// var array = ["alpaca", "bubblegum", "elephants", "apples", "Alligators"];
+
+// function findAWords(input) {
+//   return input.filter((x) => x.toLowerCase().startsWith("a")).length;
+// }
+
+// console.log(findAWords(array));
+
+// problem 17
+
+// var array = ["alpaca", "bubblegum", "elephants", "apples", "Alligators"];
+
+// function combineString(input) {
+//   var superstring = input[0];
+//   for (i = 1; i < input.length; i++) {
+//     superstring += "," + input[i];
+//   }
+//   return superstring;
+// }
+
+// console.log(combineString(array));
